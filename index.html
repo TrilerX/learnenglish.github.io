@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English with Technical Terms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Learn English with Technical Terms</h1>
+        <p>Master essential terms and grammar for the tech world!</p>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="grammar.html" target="_blank">Grammar</a></li>
+            <li><a href="technical_terms.html" target="_blank">Technical Terms</a></li>
+            <li><a href="diccionario.html" target="_blank">Technical Dictionary</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="grammar">
+            <h2>Grammar Basics</h2>
+            <ul>
+                <li><strong>Was/Were:</strong> Past tense of "to be".</li>
+                <li><strong>Had been:</strong> Past perfect tense.</li>
+                <li><strong>WH Questions:</strong> Who, What, When, Where, Why, and How.</li>
+            </ul>
+        </section>
+
+        <section id="terms">
+            <h2>Technical Terms</h2>
+            <p>Learn these key terms:</p>
+            <ul>
+                <li><strong>Algorithm:</strong> Step-by-step procedure for calculations.</li>
+                <li><strong>Database:</strong> Organized collection of data.</li>
+                <li><strong>Server:</strong> A computer that provides data to other computers.</li>
+            </ul>
+        </section>
+
+        <section id="quiz">
+            <h2>Practice Quiz</h2>
+            <p>Test your knowledge:</p>
+            <button class="quiz-control" onclick="startQuiz()">Start Quiz</button>
+            <div id="quiz-section" style="display: none;">
+                <p>What is the past tense of "to be" for "they"? </p>
+                <button class="quiz-option" onclick="checkAnswer('were')">Were</button>
+                <button class="quiz-option" onclick="checkAnswer('was')">Was</button>
+                <p id="result"></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Learn English with Technical Terms</p>
+        <p>Page created by: <br>Jose Alberto Huayhua Villanueva <br>Gabriel Fernando Mamani Catunta</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
